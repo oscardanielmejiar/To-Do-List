@@ -1,5 +1,5 @@
 import React from "react";
-import TodoForm  from "./TodoList.jsx"
+import TodoForm  from "./todoList.jsx"
 
 
 
@@ -19,4 +19,4 @@ const Home = () => {
 	);
 };
 
-export default Home
+export {Home}
