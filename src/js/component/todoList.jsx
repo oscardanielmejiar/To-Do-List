@@ -1,12 +1,19 @@
-import React from "react";
+import React, {useState} from "react";
+
 
 const TodoForm = () =>{
-    return(<div>
+    const [inputValue, setInputValue ] = useState('');
+
+    return(<div className="task-box">
         <ul className="list-group">
-        <li className="list-group-item">Hola</li>
-        <li className="input-group">
-  <input type="text" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-  <button className="btn btn-outline-secondary" type="button" id="button-addon2">Button</button></li>
+            <li className=" input-group mb-3">
+  <input type="text"  onChange={e => setInputValue(e.target.value)} value={inputValue}
+  className="form-control" placeholder="No tasks, add a task" aria-label="No tasks, add a task" aria-describedby="button-addon2"/>
+  <button className="btn btn-secondary" type="button" id="inputGroupFile01">Add Task</button></li>
+  <li className="list-group-item">Hola</li>
+  <li className="list-group-item">Hola</li>
+  <li className="list-group-item">Hola</li>
+  <li className="list-group-item">Hola</li>
 </ul>
     </div>)
 }
