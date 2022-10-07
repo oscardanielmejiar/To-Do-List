@@ -1,5 +1,6 @@
 import React from "react";
-import TodoForm  from "./todoList.jsx"
+import TodoForm  from "./todoList.jsx";
+import "./todoList.css"
 
 
 
