@@ -1,5 +1,5 @@
 import React from "react";
-import TodoForm  from "./todoList.jsx";
+import TodoList  from "./todoList.jsx";
 import "./todoList.css"
 
 
@@ -10,7 +10,7 @@ const Home = () => {
 		<div className="text-center">
 			<h1 className="text-center mt-5">My To-do List</h1>
 		<div>
-				<TodoForm />
+				<TodoList />
 		</div>
 		
 		</div>

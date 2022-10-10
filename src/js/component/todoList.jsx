@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const TodoForm = () => {
+const TodoList = () => {
   const [inputValue, setInputValue] = useState("");
   const [todos, setTodos] = useState([]);
   useEffect(() => {
@@ -68,4 +68,4 @@ const TodoForm = () => {
   );
 };
 
-export default TodoForm;
+export default TodoList;
